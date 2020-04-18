@@ -12,8 +12,8 @@ White: #FFF
 
 html {
     border: 0;
-    font-family: 'Source Sans Pro';
-    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
 
 img {
@@ -21,9 +21,8 @@ img {
 }
 
 .navbar img {
-    padding: 0 1em;
-    height: auto;
-    width: 10em;
+    padding: 1% 0 1% 2%;
+    width: 9em;
 }
 
 ul li {
@@ -31,36 +30,91 @@ ul li {
 }
 
 ul {
-    text-decoration: none;
     list-style: none;
+    width: 100%;
     display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
-	align-content: flex-end;
+    align-content: flex-end;
+    padding-right: 1em;
 }
 
 .navbar { 
-    box-sizing: border-box;
     width: 100%;
     position: fixed;
-    background-color: white;
+    background-color: #FFF;
     display: flex;
-    height: 2em;
+    height: 4em;
 }
 
 .music-background {
-    margin: 0;
-    background: url('/images/landing.jpg') center/100%;
+    text-align: center;
+    background: url('/images/landing.jpg') center/100% no-repeat;
+    height: 500px;
     color: white;
-    height: 600px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     align-items: center;
 }
 
 h1 {
     font-size: 3em;
+    padding-bottom: 3%;
+    font-weight: lighter;
+}
+
+.second-section {
+    width: 80%;
+    padding: 0 10%;
+    text-align: center;
+}
+
+.second-section > h2 {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.description-boxes > img {
+    width: 5em;
+}
+
+.description-boxes > h3 {
+    color: #00B172;
+} 
+
+.description {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #1A1A1A;
     padding: 1em;
+}
+
+.description-boxes {
+    width: 33%;
+    padding: 1em;
+}
+
+.product{
+    height: 400px;
+    background: #00B172 no-repeat url("/images/spotify-icon-white.png") center/10%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+h2.product{ 
+    padding: 2em 0;
+}
+
+.product img{
+    width: 10em;
 }
