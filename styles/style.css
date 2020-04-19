@@ -68,17 +68,32 @@ h1 {
 
 .second-section {
     width: 80%;
-    padding: 0 10%;
+    padding: 1em 10% 4em 10%;
     text-align: center;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: center;
 }
 
 .second-section > h2 {
     text-align: center;
-    padding: 1em 0;
+    font-size: 2em;
+    padding: 2% 0 1% 0;
+}
+
+.second-section > div > hr {
+    background-color: #00B172;
+    justify-self: center;
+    border:  none;
+    width: 16em;
+    height: 3px;
 }
 
 .description-boxes > img {
-    width: 5em;
+    width: 6em;
 }
 
 .description-boxes > h3 {
@@ -86,35 +101,57 @@ h1 {
 } 
 
 .description {
+    height: 200px;
     display: flex;
-    flex-direction: row;
-    padding-bottom: 2em;
+    padding: 1em 0;
     text-align: center;
     color: #1A1A1A;
-    padding: 1em;
 }
 
 .description-boxes {
     width: 33%;
-    padding: 1em;
+    padding: 2em 2em;
 }
 
 .product{
-    height: 400px;
-    background: #00B172 no-repeat url("/images/spotify-icon-white.png") center/10%;
+    padding: 0 5%;
+    width: 90%;
+    height: 600px;
+    background: #00B172 no-repeat url("/images/spotify-icon-white.png") center/7%;
     color: #fff;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-
+    align-items: center;
 }
 
-h2.product{ 
-    padding: 2em 0;
+.info-spotify {
+    width: 50%;
+    padding: 0 5%;
 }
 
-.product img{
-    width: 10em;
+h2 > hr {
+    background-color: #FFF;
+    width: 11.5em;
+    height: 3px;
+}
+
+.info-spotify h2{ 
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.info-spotify > p {
+    width: 14em;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.kanye-spotify img{
+    width: 13em;
+    padding-right: 3em;
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
