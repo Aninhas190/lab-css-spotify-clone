@@ -115,7 +115,7 @@ h1 {
 
 .product{
     padding: 0 5%;
-    width: 90%;
+    margin: 0 5%;
     height: 600px;
     background: #00B172 no-repeat url("/images/spotify-icon-white.png") center/7%;
     color: #fff;
@@ -139,7 +139,7 @@ h2 > hr {
 
 .info-spotify h2{ 
     padding-bottom: 1em;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .info-spotify > p {
@@ -150,6 +150,7 @@ h2 > hr {
 
 .kanye-spotify img{
     width: 13em;
+    margin: 15% 0 0 10%;
     padding-right: 3em;
     display: flex;
     justify-self: center;
